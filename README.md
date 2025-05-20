@@ -1,4 +1,4 @@
-# Registro-EstuduantePract2 - Sistema de Registro Universitario
+# Registro-EstudiantePract2 - Sistema de Registro Universitario
 
 ![Java](https://img.shields.io/badge/Java-21-blue)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5-green)
