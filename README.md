@@ -25,27 +25,29 @@ Sistema de gestión académica desarrollado como práctica 2 para la asignatura 
 
 ## 📂 Estructura del proyecto
 
-registro-universitario/
-├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── com/
-│ │ │ └── universidad/
-│ │ │ ├── config/ # Configuraciones de la aplicación
-│ │ │ ├── controller/ # Controladores REST
-│ │ │ ├── dto/ # Objetos de transferencia de datos
-│ │ │ ├── exception/ # Manejo de excepciones
-│ │ │ ├── model/ # Entidades JPA
-│ │ │ ├── repository/ # Interfaces de repositorio
-│ │ │ ├── security/ # Configuración de seguridad
-│ │ │ ├── service/ # Lógica de negocio
-│ │ │ └── validation/ # Validaciones personalizadas
-│ │ └── resources/ # Archivos de configuración
-│ └── test/ # Pruebas unitarias
-├── .gitignore
-├── pom.xml # Configuración de Maven
-└── README.md
 
+```text
+registro-universitario/
+|-- src/
+|   |-- main/
+|   |   |-- java/
+|   |   |   `-- com/
+|   |   |       `-- universidad/
+|   |   |           |-- config/               # Configuraciones
+|   |   |           |-- controller/           # Controladores
+|   |   |           |-- dto/                  # DTOs
+|   |   |           |-- exception/            # Excepciones
+|   |   |           |-- model/                # Entidades
+|   |   |           |-- repository/           # Repositorios
+|   |   |           |-- security/             # Seguridad
+|   |   |           |-- service/              # Servicios
+|   |   |           `-- validation/           # Validaciones
+|   |   `-- resources/                        # Recursos
+|   `-- test/                                 # Tests
+|-- .gitignore
+|-- pom.xml                                   # Maven
+`-- README.md
+```
 ## 🚀 Cómo ejecutar el proyecto
 
 1. **Requisitos previos**:
