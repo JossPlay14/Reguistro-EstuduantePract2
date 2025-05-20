@@ -24,3 +24,40 @@ Sistema de gestión académica desarrollado como práctica 2 para la asignatura 
 - **Build**: Maven
 
 ## 📂 Estructura del proyecto
+
+registro-universitario/
+├── src/
+│ ├── main/
+│ │ ├── java/
+│ │ │ └── com/
+│ │ │ └── universidad/
+│ │ │ ├── config/ # Configuraciones de la aplicación
+│ │ │ ├── controller/ # Controladores REST
+│ │ │ ├── dto/ # Objetos de transferencia de datos
+│ │ │ ├── exception/ # Manejo de excepciones
+│ │ │ ├── model/ # Entidades JPA
+│ │ │ ├── repository/ # Interfaces de repositorio
+│ │ │ ├── security/ # Configuración de seguridad
+│ │ │ ├── service/ # Lógica de negocio
+│ │ │ └── validation/ # Validaciones personalizadas
+│ │ └── resources/ # Archivos de configuración
+│ └── test/ # Pruebas unitarias
+├── .gitignore
+├── pom.xml # Configuración de Maven
+└── README.md
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. **Requisitos previos**:
+   - Java JDK 17
+   - Maven 3.8+
+   - Base de datos configurada (MySQL/PostgreSQL/H2)
+
+2. **Configuración**:
+   - Editar `src/main/resources/application.properties` con tus credenciales de BD
+   - Configurar puerto y otras propiedades según necesidad
+
+3. **Ejecución**:
+   ```bash
+   mvn spring-boot:run
+
